@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+*{
+    padding: 0; 
+    margin: 0; 
+}
+
+body{
+    scroll-behavior: smooth;
+}
+
+
+.navbar{
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    width: 100%;
+    background-image: url(./asset/287831_GettyImages-1265116009-1.jpg); 
+    background-size: cover;
+    background-position: center;
+
+}
+
+.navbar-unfix{
+    
+    width: 100%;
+    height: 80px;
+    background-color: rgba(255, 247, 247, 0.335); 
+    box-shadow: -5px 1px 28px rgba(159, 159, 159, 0.22); 
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.cv{
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    color: rgb(28, 28, 21);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkedin{
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    color: rgb(28, 28, 21);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cv:hover{
+
+    color:rgb(77, 2, 217)
+
+}
+
+.portfolio{
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    color: rgb(28, 28, 21);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio:hover{
+
+    color:rgb(77, 2, 217)
+
+}
+
+.afinque-sous{
+
+    font-family: 'Dancing Script', cursive;
+    font-size: 18px;
+
+
+}
+
+.affin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.all{
+    display: flex;
+}
+
+.all ul{
+    margin: 10px 10px; 
+}
+
+.Titre-Badr{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 30px;
+}
+
+li{
+    list-style-type: none;
+}
+
+.Badr{
+
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 1px 1px 2px black;
+    color: azure;
+
+}
+
+.trait{
+    height: 3px;
+    width: 200px;
+    background-color: black;
+    margin: 10px 0;
+}
+
+.projet{
+
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    color: azure;
+}
+
+
+.barre-droite{
+    display: flex;
+    flex-direction: column;
+    position: fixed; 
+    width: 60px;
+    height: 230px;
+    background-color: rgba(120, 120, 123, 0.461);
+    margin-right: 1400px;
+    margin-bottom: 100px;
+    border-radius: 0 12px 12px 0;
+}
+
+.arrow{
+
+    width: 28px;
+    height: 28px;
+    margin-left: 21px;
+    margin-right: 10px;
+
+    border: 1px solid black;
+    border-radius: 20%;
+    margin-bottom: 22px;
+    margin-top: 5px;
+}
+
+
+.arrow:hover{
+
+    background-color: rgb(255, 255, 255);
+}
+
+.vision-changement{
+
+    font-size: 56px;       
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+
+}
+
+
+.vision-action{
+
+    font-size: 16px;       
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+.vision-action-pfe{
+
+    font-size: 16px;       
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.vision-action-rapport{
+
+    font-size: 10px;       
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.afinque{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}
+
+
+.page3{
+
+    height: 220px; 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 120px;
+    margin-bottom: 50px;
+
+}
+
+.cadre-page3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    border: 2px solid rgb(66, 66, 66);
+    border-radius: 10px 10px 0 0;
+}
+
+
+.page4{
+
+    width: 80%;
+    height: 90vh;
+
+    display: flex;
+    margin-left: 100px;
+    margin-bottom: 40px;
+
+}
+
+
+
+.photoo{
+    width: 300px;
+    height: 250px;
+}
+
+
+.titre{
+
+    font-family: 'Poppins', "sans serif";
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.titre1{
+    font-family: 'Poppins', "sans serif";
+    font-family: 'Poppins', "sans serif";
+    font-size: 22px;
+    margin: 20px 0; 
+
+}
+
+.texte{
+
+    font-family: 'Poppins', "sans serif";
+    font-size: 15px;
+
+}
+
+.photo{
+    transition: width 1s, height 1s, background-color 1s, transform 0.5s;
+    margin-bottom: 30px;
+
+}
+
+.photo:hover{
+    transform: scale(0.9, 0.9);
+}
+
+
+.ul-2{
+
+    margin-top: 50px;
+
+}
+
+.ul-3{
+
+    margin-top: 100px;
+
+}
+.ul-4{
+
+    margin-top: 150px;
+
+}
+
+
+
+.page5{
+
+    height: 220px; 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 50px;
+
+}
+
+.cadre-page5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    border: 2px solid rgb(66, 66, 66);
+    border-radius: 10px 10px 0 0;
+}
+
+
+
+.footer{
+    width: 100%;
+    height: 180px; 
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+.cela-plu{
+    font-family: 'Dancing Script', cursive;
+
+
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+
+.bas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bas div{
+
+    font-family: 'Poppins', "sans serif";
+    font-size: 17px;
+    color: rgb(255, 255, 255);    
+    margin-bottom: 5px;
+}
+
