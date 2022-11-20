@@ -862,7 +862,7 @@ footer .wrapper { text-align: center; }
 
   .hero .img-box {
     position: relative;
-    z-index: 2;
+    z-index: 0;
   }
 
   .hero-img {
