@@ -887,7 +887,7 @@ footer .wrapper { text-align: center; }
     height: 200px;
     background: url(../images/pattern.png);
     background-size: contain;
-    opacity: 0.2;
+    opacity: 0.8;
   }
 
   .hero .img-box {
