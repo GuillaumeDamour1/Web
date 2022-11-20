@@ -344,7 +344,6 @@ header .btn-group {
 
 
 
-
 /*-----------------------------------*\
   #HERO SECTION
 \*-----------------------------------*/
@@ -380,9 +379,6 @@ header .btn-group {
 }
 
 .hero .right { display: none; }
-
-
-
 
 
 /*-----------------------------------*\
@@ -887,7 +883,7 @@ footer .wrapper { text-align: center; }
     height: 200px;
     background: url(../images/pattern.png);
     background-size: contain;
-    opacity: 0.8;
+    opacity: 0.2;
   }
 
   .hero .img-box {
