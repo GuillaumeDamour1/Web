@@ -1041,7 +1041,7 @@ footer .wrapper { text-align: center; }
     border: none;
     background: var(--action-primary);
     display: block;
-    width: 100%;
+    width: 50%;
     padding: 0.5rem 1rem;
     font: inherit;
     color: var(--foreground-secondary);
