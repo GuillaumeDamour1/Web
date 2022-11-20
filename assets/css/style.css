@@ -947,7 +947,7 @@ footer .wrapper { text-align: center; }
 
   .topic-btn .icon-box {
     font-size: 22px;
-    width: 70px;
+    width: 160px;
     display:         flex;
     justify-content: center;
     align-items:     center;
@@ -1041,7 +1041,7 @@ footer .wrapper { text-align: center; }
     border: none;
     background: var(--action-primary);
     display: block;
-    width: 50%;
+    width: 100%;
     padding: 0.5rem 1rem;
     font: inherit;
     color: var(--foreground-secondary);
